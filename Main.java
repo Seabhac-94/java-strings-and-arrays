@@ -14,8 +14,12 @@ class Main {
         for (int word = inputString.length - 1; word >= 0; word--) {
             reversedString += inputString[word] + " ";
         }
-
         System.out.print(reversedString.substring(0, reversedString.length() -1));
 
+
+        // Challenge 2
+        // Rotate an array of n elements to the lft by k steps
+
+        
     }
 }
